@@ -582,14 +582,18 @@
   text-underline-offset: 4px;
 }
 
+/* Botones de contacto: blanco, sin rosa */
+
 .contact .button--outline {
   color: #ffffff;
-  border-color: #e8c5c8;
+  border-color: #ffffff;
+  background-color: transparent;
 }
 
 .contact .button--outline:hover {
-  color: var(--color-text);
-  background-color: #e8c5c8;
+  color: #3d2b29;
+  background-color: #ffffff;
+  border-color: #ffffff;
 }
 
 /* Pie de página */
