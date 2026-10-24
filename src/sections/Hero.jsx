@@ -129,16 +129,6 @@ export default function Hero() {
 
             <a
               className="button button--outline"
-              href={instagramUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Síguenos en Instagram"
-            >
-              Instagram
-            </a>
-
-            <a
-              className="button button--outline"
               href="#clases"
             >
               Explora las disciplinas

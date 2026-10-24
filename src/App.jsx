@@ -12,6 +12,8 @@ export default function App() {
     'Hola, quiero recibir información sobre las clases y experiencias de ElevArte.'
   )}`
 
+  const instagramUrl = siteConfig.contact.instagramUrl
+
   return (
     <div className="site-shell">
       <Navbar />
@@ -129,14 +131,26 @@ export default function App() {
               ElevArte.
             </p>
 
-            <a
-              className="button button--outline"
-              href={whatsappUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Contactar por WhatsApp
-            </a>
+            <div className="contact__actions">
+              <a
+                className="button button--outline"
+                href={whatsappUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Contactar por WhatsApp
+              </a>
+
+              <a
+                className="button button--primary"
+                href={instagramUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visitar Instagram de ElevArte"
+              >
+                Síguenos en Instagram
+              </a>
+            </div>
 
             <div className="contact__details">
               <span>
