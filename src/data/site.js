@@ -1,5 +1,5 @@
 
-const WHATSAPP_NUMBER = '573216898991'
+const WHATSAPP_NUMBER = '573046777211'
 
 export const siteConfig = {
   brand: {
