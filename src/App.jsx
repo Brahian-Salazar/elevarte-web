@@ -142,7 +142,7 @@ export default function App() {
               </a>
 
               <a
-                className="button button--primary"
+                className="button button--outline"
                 href={instagramUrl}
                 target="_blank"
                 rel="noopener noreferrer"
