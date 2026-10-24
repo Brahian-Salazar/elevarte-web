@@ -18,6 +18,7 @@ export const siteConfig = {
   contact: {
     whatsappNumber: WHATSAPP_NUMBER,
     whatsappUrl: `https://wa.me/${WHATSAPP_NUMBER}`,
+    instagramUrl: 'https://www.instagram.com/elevartevuelasinlimites/',
   },
 
   navigation: [

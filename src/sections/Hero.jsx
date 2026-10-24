@@ -89,6 +89,9 @@ export default function Hero() {
     'Hola, quiero conocer las clases de ElevArte.'
   )}`
 
+  const instagramUrl =
+    siteConfig.contact.instagramUrl
+
   return (
     <section
       className="hero"
@@ -126,6 +129,16 @@ export default function Hero() {
 
             <a
               className="button button--outline"
+              href={instagramUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Síguenos en Instagram"
+            >
+              Instagram
+            </a>
+
+            <a
+              className="button button--outline"
               href="#clases"
             >
               Explora las disciplinas
@@ -144,7 +157,9 @@ export default function Hero() {
             onMouseLeave={() => setIsPaused(false)}
             onFocus={() => setIsPaused(true)}
             onBlur={(event) => {
-              if (!event.currentTarget.contains(event.relatedTarget)) {
+              if (
+                !event.currentTarget.contains(event.relatedTarget)
+              ) {
                 setIsPaused(false)
               }
             }}
